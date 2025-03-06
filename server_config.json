@@ -1,0 +1,9 @@
+{
+  "language": "javascript",
+  "host": "localhost:",
+  "port": 3000,
+  "routes": [
+    { "method": "GET", "path": "/", "handler": "home", "response": "Welcome!" },
+    { "method": "POST", "path": "/data", "handler": "dataHandler", "response": "Data received!" }
+  ]
+}
